@@ -7,10 +7,9 @@ fixed定位
 2.android下fixed表现要比iOS更好，软键盘弹出时，不会影响fixed元素定位
 3.ios4下不支持position:fixed
 
-解决方案：使用[Iscroll](http://cubiq.org/iscroll-5)，如：
-  <div id="wrapper">
-          <ul><li></li></ul>
-  </div>
+解决方案：使用 [Iscroll] ，如：
+ 
+  <div id="wrapper"><ul><li></li></ul></div>
   <script src="iscroll.js"></script>
   <script>
       var myscroll;
